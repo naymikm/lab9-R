@@ -1,6 +1,5 @@
 libs = c('ggplot2','latticeExtra')
 suppressMessages(invisible(lapply(libs,require,character.only=T)))
-cat("Generating figV.pdf...\n")
 
 data(diamonds)
 
